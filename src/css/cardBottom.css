@@ -1,0 +1,72 @@
+.card--bottom{
+    display: flex;
+}
+.card--bottom--left{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 3rem;
+    width: 50%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3rem;
+    text-align: justify;
+}
+.card--bottom--left h6{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.card--bottom--left p {
+    margin-top: 0;
+}
+.card--bottom--left--price{
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+}
+#price{
+    font-size: 4rem;
+    margin: 0;
+}
+#session{
+    color: hsl(204, 43%, 93%);
+    margin-left: 1rem;
+    padding-top: 10px;
+}
+button{
+    width: 70%;
+    background-color: hsl(71, 73%, 54%);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    outline: none;
+    transition: transform 330ms ease-in;
+}
+button:hover{
+   transform: scaleX(1.2)scaleY(1.2);
+   cursor:pointer
+}
+
+
+.card--bottom--right{
+    background-color: #4abebd;
+    width: 50%;
+    border-bottom-right-radius: 3rem;
+    padding: 20px;
+}
+
+.card--bottom--right h6{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+.card--bottom--right p {
+    color: white;
+    font-size: 16px;
+}

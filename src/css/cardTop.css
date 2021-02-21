@@ -1,0 +1,17 @@
+.card--top {
+    padding: 20px
+}
+.card--top h4 {
+    color:  hsl(179, 62%, 43%);
+    font-size: 20px;
+}
+.card--top h6 {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.card--top p {
+    color: gray;
+    font-size: 16px;
+}
